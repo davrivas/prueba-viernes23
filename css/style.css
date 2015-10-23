@@ -1,0 +1,138 @@
+/* line 2, ../scss/style.scss */
+body {
+  background: url(../img-noise-361x370.png);
+}
+
+/* line 7, ../scss/style.scss */
+.upper {
+  background-color: #152FAF;
+  border-bottom: 2px;
+  display: inline-block;
+  height: auto;
+  margin-bottom: 10px;
+  padding: 1em;
+  position: fixed;
+  width: 100%;
+}
+
+/* line 18, ../scss/style.scss */
+#title {
+  color: #fff;
+  float: left;
+  font-size: 2em;
+  line-height: none;
+  margin-left: 3em;
+  padding: auto;
+  position: relative;
+}
+/* line 28, ../scss/style.scss */
+#title:hover {
+  color: #F7EC50;
+}
+
+/* line 34, ../scss/style.scss */
+#car {
+  background: #D9CB45;
+  border: #100F05 1px;
+  border-radius: 3px;
+  float: right;
+  height: auto;
+  margin-right: 4em;
+  padding: .5em;
+  position: relative;
+  -webkit-box-shadow: 0px 0px 5px 0px white;
+  -moz-box-shadow: 0px 0px 5px 0px white;
+  -ms-box-shadow: 0px 0px 5px 0px white;
+  box-shadow: 0px 0px 5px 0px white;
+}
+
+/* line 56, ../scss/style.scss */
+.contenedor {
+  display: inline-block;
+  margin: 3em;
+  margin-bottom: -0.2em;
+  clear: both;
+  width: 90%;
+  min-height: 500px;
+}
+
+/* line 66, ../scss/style.scss */
+aside {
+  background-color: #656774;
+  border: 2px #54540F;
+  color: #fff;
+  float: left;
+  padding: auto;
+  padding-top: 2em;
+  position: static;
+  height: 1000px;
+  text-align: center;
+  vertical-align: top;
+  width: 14%;
+}
+
+/* line 81, ../scss/style.scss */
+#catl {
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+/* Lo principal */
+/* line 94, ../scss/style.scss */
+.main {
+  display: inline-block;
+  padding: 2em;
+  float: right;
+  width: 80%;
+}
+
+/* line 102, ../scss/style.scss */
+.products {
+  background: #E1EDD8;
+  margin: 10px;
+  display: inline-block;
+  border: 1px #000;
+  text-align: center;
+  padding: 10px;
+}
+
+/* line 112, ../scss/style.scss */
+#product {
+  height: 250px;
+  width: 250px;
+}
+
+/* line 118, ../scss/style.scss */
+#detalle {
+  display: inline-block;
+  margin-left: 10px;
+}
+/* line 123, ../scss/style.scss */
+#detalle p {
+  float: left;
+  text-align: center;
+}
+
+/* line 131, ../scss/style.scss */
+#add {
+  background-color: #407B12;
+  color: #fff;
+  border: none;
+  float: right;
+  border-radius: 2px;
+  padding: auto;
+  margin-right: 15px;
+  -webkit-box-shadow: 0px 0px 5px 0px black;
+  -moz-box-shadow: 0px 0px 5px 0px black;
+  -ms-box-shadow: 0px 0px 5px 0px black;
+  box-shadow: 0px 0px 5px 0px black;
+}
+
+/* line 154, ../scss/style.scss */
+footer {
+  background-color: #152FAF;
+  color: #fff;
+  clear: both;
+  padding: 1em;
+  text-align: center;
+}
