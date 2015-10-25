@@ -58,8 +58,7 @@ body {
 
 /* line 66, ../scss/style.scss */
 aside {
-  background-color: #656774;
-  border: 2px #54540F;
+  background-color: #036C4A;
   color: #fff;
   float: left;
   padding: auto;
@@ -75,6 +74,27 @@ aside {
 #catl {
   font-size: 1.25em;
   font-weight: bold;
+  margin-bottom: 2em;
+    margin-top: 1.5em;
+}
+
+.cat > a {
+    background-color:  #113705;
+    border: 1px solid;
+    border-color: #fff;
+    color: inherit;
+    display: block;
+    margin: .5em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    padding: 1em;
+    text-decoration: none;
+}
+.cat > a:hover {
+    background-color:  #113705;
+    border: 1px solid;
+    border-color: #E89207;
+    color: #E89207;
 }
 
 /* Lo principal */
@@ -126,6 +146,10 @@ aside {
   -moz-box-shadow: 0px 0px 5px 0px black;
   -ms-box-shadow: 0px 0px 5px 0px black;
   box-shadow: 0px 0px 5px 0px black;
+}
+
+#add:hover {
+    background-color: #07E84B;
 }
 
 /* line 154, ../scss/style.scss */
